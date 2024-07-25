@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To Do List</title>
     <link rel="stylesheet" href="style.css">  
 </head>
 <body>
-    <div class="container">
-        <div class="box">
+    <main class="container">
+        <section class="box">
             <div class="title">
-                <h2>To Do List <img src="images/icon.png"></h2>
+                <h2>To Do List <img src="images/icon.png" alt="To Do List Icon"></h2>
             </div>
-            <div class="search">
+            <form class="search">
                 <input id="inputContainer" class="searchBar" type="text" placeholder="Add work">
-                <button id="searchBtn" class="searchBtn" >ADD WORK</button>
-            </div>
+                <button type="submit" id="searchBtn" class="searchBtn">ADD WORK</button>
+            </form>
             <ul id="workList"></ul>
-        </div>
-    </div>
-    <script src="scrit.js"></script>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
