@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function addTask() {
         let task = inputContainer.value.trim();
         if (!task) {
-            alert("Add task");
+            // alert("Add task");
         } else {
             let li = document.createElement("li");
             let span = document.createElement("span");
